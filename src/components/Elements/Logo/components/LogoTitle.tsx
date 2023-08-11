@@ -1,7 +1,8 @@
 import { LogoProps } from "@/components/Elements/Logo/types";
 import { LOGO_TITLE_SIZE } from "@/components/Elements/Logo/consts";
+import { Required } from "@/types/required";
 
-const LogoTitle = (props: Pick<LogoProps, "size">) => {
+const LogoTitle = (props: Required<Pick<LogoProps, "size">>) => {
   return (
     <svg
       width={LOGO_TITLE_SIZE[props.size][0]}

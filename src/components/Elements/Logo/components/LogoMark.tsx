@@ -1,7 +1,7 @@
 import { LogoProps } from "@/components/Elements/Logo/types";
 import { LOGO_MARKER_SIZE } from "@/components/Elements/Logo/consts";
 
-const LogoMark = (props: Pick<LogoProps, "size">) => {
+const LogoMark = (props: Required<Pick<LogoProps, "size">>) => {
   return (
     <svg
       width={LOGO_MARKER_SIZE[props.size]}

@@ -7,3 +7,5 @@ export type LogoProps = {
   direction?: LogoDirection;
   hideTitle?: boolean;
 };
+
+export type LogoMarkProps = { size: LogoSize };
