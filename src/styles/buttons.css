@@ -1,0 +1,47 @@
+@tailwind components;
+
+@layer components {
+  .btn {
+    @apply rounded-full text-lg font-bold;
+  }
+
+  .btn-fill {
+    @apply text-white;
+  }
+
+  .btn-fill.btn-gray {
+    @apply bg-mindful-gray-80;
+  }
+
+  .btn-fill.btn-orange {
+    @apply bg-empathy-orange-40;
+  }
+
+  .btn-fill.btn-green {
+    @apply bg-serenity-green-50;
+  }
+
+  .btn-fill.btn-gray .btn-icon {
+    @apply text-mindful-gray-80;
+  }
+
+  .btn-fill.btn-orange .btn-icon {
+    @apply text-empathy-orange-40;
+  }
+
+  .btn-fill.btn-green .btn-icon {
+    @apply text-serenity-green-50;
+  }
+
+  .btn-outline.btn-gray {
+    @apply border border-mindful-gray-80 text-mindful-gray-80;
+  }
+
+  .btn-outline.btn-orange {
+    @apply border border-empathy-orange-40 text-empathy-orange-40;
+  }
+
+  .btn-outline.btn-green {
+    @apply border border-serenity-green-50 text-serenity-green-50;
+  }
+}
