@@ -1,8 +1,11 @@
-const LogoMark = () => {
+import { LogoProps } from "@/components/Elements/Logo/types";
+import { LOGO_MARKER_SIZE } from "@/components/Elements/Logo/consts";
+
+const LogoMark = (props: Pick<LogoProps, "size">) => {
   return (
     <svg
-      width="36"
-      height="36"
+      width={LOGO_MARKER_SIZE[props.size]}
+      height={LOGO_MARKER_SIZE[props.size]}
       viewBox="0 0 36 36"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
