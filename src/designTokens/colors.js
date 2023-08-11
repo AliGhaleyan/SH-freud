@@ -7,10 +7,12 @@ module.exports = {
     white: "#FFFFFF",
     10: "#F7F4F2",
     60: "#926247",
+    70: "#6D4B36",
     80: "#4B3425",
   },
   "serenity-green": {
     50: "#9BB068",
   },
   white: "#FFFFFF",
+  transparent: "transparent",
 };
