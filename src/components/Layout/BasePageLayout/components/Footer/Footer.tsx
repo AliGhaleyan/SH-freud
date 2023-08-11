@@ -1,5 +1,6 @@
 import { ButtonIcon, Logo, TextInput } from "@/components/Elements";
 import { ArrowRightIcon, EmailIcon } from "@/components/Icons";
+import FooterLinks from "./components/FooterLinks";
 
 const Footer = () => {
   return (
@@ -17,6 +18,7 @@ const Footer = () => {
           }
         />
       </div>
+      <FooterLinks />
     </div>
   );
 };

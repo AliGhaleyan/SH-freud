@@ -6,6 +6,7 @@ module.exports = {
   "mindful-gray": {
     white: "#FFFFFF",
     10: "#F7F4F2",
+    40: "#BDA193",
     60: "#926247",
     70: "#6D4B36",
     80: "#4B3425",
