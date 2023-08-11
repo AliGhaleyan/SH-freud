@@ -12,7 +12,7 @@ const Footer = () => {
           buttonIcon={
             <ButtonIcon
               icon={<ArrowRightIcon width={24} height={24} />}
-              className="bg-mindful-gray-60"
+              className="!bg-mindful-gray-60"
             />
           }
         />
