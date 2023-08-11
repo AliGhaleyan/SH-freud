@@ -1,7 +1,7 @@
 .swiper-pagination-bullet {
-  @apply bg-moonstone-4 !important;
+  /*@apply bg-moonstone-4 !important;*/
 }
 
 .swiper-pagination-bullet-active {
-  @apply bg-moonstone-1 !important;
+  /*@apply bg-moonstone-1 !important;*/
 }
