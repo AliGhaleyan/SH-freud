@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("./font-face.css");
+@import url("./swiper.css");
+
+body {
+  font-family: Roboto;
+}
