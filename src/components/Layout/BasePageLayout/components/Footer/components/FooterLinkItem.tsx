@@ -8,11 +8,12 @@ type Props = {
 
 const FooterLinkItem = (props: Props) => {
   return (
-    <div
+    <a
       className={classNames(
-        "grid gap-2 text-heading-md font-semibold",
+        "grid gap-2 text-heading-md font-semibold hover:text-white",
         props.isActive ? "text-white" : "text-mindful-gray-40"
       )}
+      href="#"
     >
       {props.isActive && (
         <Psyche
@@ -22,7 +23,7 @@ const FooterLinkItem = (props: Props) => {
         />
       )}
       {props.label}
-    </div>
+    </a>
   );
 };
 
