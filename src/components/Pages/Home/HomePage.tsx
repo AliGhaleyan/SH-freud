@@ -1,7 +1,7 @@
 import { BasePageLayout } from "@/components/Layout";
 
 const HomePage = () => {
-  return <BasePageLayout></BasePageLayout>;
+  return <BasePageLayout>{/*<div>hey</div>*/}</BasePageLayout>;
 };
 
 export default HomePage;

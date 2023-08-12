@@ -3,7 +3,7 @@ import { AppProps } from "next/app";
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
-    <main className="h-[100vh]">
+    <main className="relative h-[100vh]">
       <Component {...pageProps} />
     </main>
   );
