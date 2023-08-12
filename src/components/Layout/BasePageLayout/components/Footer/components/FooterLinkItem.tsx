@@ -10,7 +10,7 @@ const FooterLinkItem = (props: Props) => {
   return (
     <a
       className={classNames(
-        "grid gap-2 text-heading-md font-semibold hover:text-white",
+        "grid gap-2 text-heading-sm font-semibold hover:text-white md:text-heading-md",
         props.isActive ? "text-white" : "text-mindful-gray-40"
       )}
       href="#"

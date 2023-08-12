@@ -3,7 +3,7 @@ import { ArrowRightIcon, EmailIcon } from "@/components/Icons";
 
 const NewsletterInput = () => {
   return (
-    <div className="mx-auto max-w-[22rem]">
+    <div className="order-3 mx-auto w-full md:order-2 md:max-w-[22rem]">
       <TextInput
         placeholder="Subscribe to our Newsletter!"
         icon={<EmailIcon width={24} height={24} />}

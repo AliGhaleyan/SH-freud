@@ -15,9 +15,11 @@ const Button = ({ className, children, icon, ...props }: ButtonProps) => {
       {...(props as object)}
     >
       {icon ? (
-        <div className="flex items-center gap-x-10">
+        <div className="flex w-full items-center">
           {children}
-          <ButtonIcon size="sm" icon={icon} />
+          <div className="ml-auto">
+            <ButtonIcon size="sm" icon={icon} className="ml-10" />
+          </div>
         </div>
       ) : (
         children

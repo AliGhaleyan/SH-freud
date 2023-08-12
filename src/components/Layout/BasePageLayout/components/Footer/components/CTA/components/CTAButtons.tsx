@@ -3,11 +3,12 @@ import { ArrowRightIcon } from "@/components/Icons";
 
 const CTAButtons = () => {
   return (
-    <div className="flex gap-2">
+    <div className="flex flex-wrap justify-end gap-2">
       <Button
         type="fill"
         color="orange"
         icon={<ArrowRightIcon width={24} height={24} />}
+        className="w-full md:w-auto"
       >
         Apple Store
       </Button>
@@ -15,6 +16,7 @@ const CTAButtons = () => {
         type="fill"
         color="green"
         icon={<ArrowRightIcon width={24} height={24} />}
+        className="w-full md:w-auto"
       >
         Google Store
       </Button>
