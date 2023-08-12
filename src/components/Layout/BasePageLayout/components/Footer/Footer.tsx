@@ -2,6 +2,7 @@ import { ButtonIcon, Logo, TextInput } from "@/components/Elements";
 import { ArrowRightIcon, EmailIcon } from "@/components/Icons";
 import FooterLinks from "./components/FooterLinks";
 import FooterSocials from "./components/FooterSocials";
+import FooterLegalSection from "./components/FooterLegalSection";
 
 const Footer = () => {
   return (
@@ -21,6 +22,7 @@ const Footer = () => {
       </div>
       <FooterLinks />
       <FooterSocials />
+      <FooterLegalSection />
     </div>
   );
 };
