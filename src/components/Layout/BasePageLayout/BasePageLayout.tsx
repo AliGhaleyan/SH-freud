@@ -1,5 +1,8 @@
 import Menu from "./components/Menu";
-import { Footer } from "./components/Footer";
+import dynamic from "next/dynamic";
+const Footer = dynamic(() => import("./components/Footer/Footer"), {
+  ssr: false,
+});
 
 const BasePageLayout = (props: React.PropsWithChildren) => {
   return (

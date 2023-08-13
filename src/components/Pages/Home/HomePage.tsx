@@ -1,7 +1,12 @@
 import { BasePageLayout } from "@/components/Layout";
+import { Hero } from "./components/Hero";
 
 const HomePage = () => {
-  return <BasePageLayout>{/*<div>hey</div>*/}</BasePageLayout>;
+  return (
+    <BasePageLayout>
+      <Hero />
+    </BasePageLayout>
+  );
 };
 
 export default HomePage;
