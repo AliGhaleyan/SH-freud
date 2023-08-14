@@ -3,7 +3,7 @@ import { EmailIcon, TelephoneIcon } from "@/components/Icons";
 
 const Menu = () => {
   return (
-    <div className="fixed top-0 w-full px-4 pt-4">
+    <div className="fixed top-0 z-[125] w-full px-4 pt-4">
       <div className="flex items-center justify-between rounded-full bg-mindful-gray-10 p-3.5 md:p-2">
         <div className="hidden gap-2 text-mindful-gray-80 md:flex">
           <ButtonIcon icon={<TelephoneIcon width={24} height={24} />} />

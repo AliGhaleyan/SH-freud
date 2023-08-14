@@ -4,5 +4,6 @@ module.exports = {
   "heading-md": ["36px", { lineHeight: "44px" }],
   "heading-xl": ["60px", { lineHeight: "68px" }],
   "label-sm": ["12px", { lineHeight: "normal" }],
+  "label-md": ["14px", { lineHeight: "normal" }],
   "paragraph-xl": ["20px", { lineHeight: "160%" }],
 };
