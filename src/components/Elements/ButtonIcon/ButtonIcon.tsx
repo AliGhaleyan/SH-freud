@@ -6,7 +6,7 @@ const ButtonIcon = (props: ButtonIconProps) => {
   const size = props.size || "md";
 
   return (
-    <button
+    <div
       className={classNames(
         "btn-icon flex items-center justify-center rounded-full bg-white",
         BUTTON_ICON_SIZE_CLASS[size],
@@ -14,7 +14,7 @@ const ButtonIcon = (props: ButtonIconProps) => {
       )}
     >
       {props.icon}
-    </button>
+    </div>
   );
 };
 

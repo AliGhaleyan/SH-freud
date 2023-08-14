@@ -1,19 +1,24 @@
 import Heading from "./components/Heading";
 import IPhoneSpaceBlack from "./components/IPhoneSpaceBlack";
+import classNames from "classnames";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="relative">
       <div
-        className="relative bg-right-top bg-no-repeat pt-40"
-        style={{ backgroundImage: "url(/hero/background-3d.png)" }}
+        className={classNames(
+          "bg-no-repeat px-4 pt-32 lg:px-20 lg:pt-40 xl:px-4",
+          "xl:bg-[url('/hero/background-3d.png')] xl:bg-right-top",
+          "md:bg-none",
+          "bg-[url('/hero/background-3d-mobile.png')] bg-contain bg-bottom"
+        )}
       >
-        <div className="container mx-auto grid grid-cols-2 gap-x-16">
+        <div className="container mx-auto grid gap-x-16 xl:grid-cols-2">
           <Heading />
           <IPhoneSpaceBlack />
         </div>
-        <div className="absolute bottom-0 z-50 h-[6.188rem] w-full bg-gradient-to-t from-white to-transparent" />
       </div>
+      <div className="absolute bottom-0 z-50 h-[6.188rem] w-full bg-gradient-to-t from-white to-transparent" />
     </div>
   );
 };

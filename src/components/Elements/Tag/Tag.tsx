@@ -9,12 +9,12 @@ const Tag = (props: Props) => {
   return (
     <div
       className={classNames(
-        "flex items-center justify-center gap-2 rounded-full px-3 py-2 text-label-md font-extrabold",
+        "flex items-center justify-center gap-2 rounded-lg px-3 py-2 text-[8.37px] font-extrabold uppercase md:rounded-full md:text-label-md",
         props.className
       )}
     >
       {props.icon && (
-        <div className="flex items-center justify-center rounded-full bg-mindful-gray-10 p-2">
+        <div className="flex h-4 w-4 items-center justify-center uppercase md:h-8 md:w-8 md:rounded-full md:bg-mindful-gray-10 md:p-2">
           {props.icon}
         </div>
       )}

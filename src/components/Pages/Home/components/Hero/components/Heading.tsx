@@ -4,23 +4,23 @@ import { ArrowRightIcon } from "@/components/Icons";
 
 const Heading = () => {
   return (
-    <div>
+    <div className="z-[60] md:pb-20 xl:pb-0">
       <div className="grid gap-y-12">
-        <div className="flex">
+        <div className="flex justify-center lg:justify-start">
           <Label className="bg-mindful-gray-20 text-mindful-gray-60">
             <Psyche width={8} height={8} />
             free your mind
           </Label>
         </div>
 
-        <div className="grid gap-y-6">
-          <h2 className="text-[4.5rem] font-bold leading-[160%] tracking-[-0.2px]">
+        <div className="grid gap-y-6 text-center lg:text-left">
+          <h2 className="text-heading-lg font-bold leading-[160%] tracking-[-0.2px] lg:text-[3.75rem] xl:text-[4.5rem]">
             Empathetic Mental Health
-            <span className="relative text-empathy-orange-40">
+            <div className="relative mx-auto w-fit justify-center text-empathy-orange-40 md:mx-0 lg:justify-start">
               {" "}
               AI Chatbot
               <AIChatbotMarker />
-            </span>
+            </div>
           </h2>
           <p className="text-paragraph-xl font-medium">
             Step into a world of cutting-edge technology and compassionate care,
@@ -28,7 +28,7 @@ const Heading = () => {
           </p>
         </div>
 
-        <div className="flex gap-2">
+        <div className="grid gap-2 lg:flex">
           <Button type="outline" color="gray">
             Try Demo
           </Button>
