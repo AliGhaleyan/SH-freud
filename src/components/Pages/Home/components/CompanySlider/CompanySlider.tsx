@@ -6,7 +6,7 @@ import classNames from "classnames";
 
 const CompanySlider = () => {
   return (
-    <div className="px-4">
+    <div className="px-4 py-2">
       <div className="container mx-auto">
         <div className="w-full rounded-[3.5rem] bg-mindful-gray-80 py-14">
           <Swiper slidesPerView="auto" centeredSlides loop>
