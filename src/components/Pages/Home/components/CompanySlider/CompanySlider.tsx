@@ -25,7 +25,7 @@ const CompanySlider = () => {
                   height={8}
                   className="absolute left-0 right-0 mx-auto hidden"
                 />
-                {x()}
+                {x}
               </SwiperSlide>
             ))}
           </Swiper>
