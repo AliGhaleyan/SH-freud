@@ -17,6 +17,9 @@ module.exports = {
   "serenity-green": {
     50: "#9BB068",
   },
+  "zen-yellow": {
+    40: "#FFCE5C",
+  },
   white: "#FFFFFF",
   transparent: "transparent",
 };

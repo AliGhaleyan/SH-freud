@@ -10,7 +10,8 @@
     "prettier:check": "prettier --check './src/**/*.{js,jsx,ts,tsx,json,md}'",
     "prettier:fix": "prettier --write './src/**/*.{js,jsx,ts,tsx,json,md}'",
     "prepare": "husky install",
-    "generate:icons": "npx @svgr/cli --typescript --out-dir ./src/components/Icons --ignore-existing -- ./src/assets/icons"
+    "generate:icons": "npx @svgr/cli --typescript --out-dir ./src/components/Icons --ignore-existing -- ./src/assets/icons",
+    "generate:home:icons": "npx @svgr/cli --typescript --out-dir ./src/components/Pages/Home/components/CompanySlider/SlideIcons --ignore-existing -- ./src/components/Pages/Home/components/CompanySlider/assets"
   },
   "dependencies": {
     "@tanstack/react-query-devtools": "^4.32.6",
