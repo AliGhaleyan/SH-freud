@@ -16,6 +16,9 @@ module.exports = {
     colors,
     fontSize,
     extend: {
+      spacing: {
+        30: "7.5rem",
+      },
       borderRadius: {
         "4xl": "3.5rem",
       },
