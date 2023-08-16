@@ -8,7 +8,7 @@ import { Container } from "@/components/Fragments";
 const CompanySlider = () => {
   return (
     <Container>
-      <div className="w-full rounded-4xl bg-mindful-gray-80 py-14">
+      <div className="w-full rounded-6xl bg-mindful-gray-80 py-14">
         <Swiper slidesPerView="auto" centeredSlides loop>
           {[...COMPANY_LIST, ...COMPANY_LIST].map((x, key) => (
             <SwiperSlide

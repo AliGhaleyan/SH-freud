@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require("tailwindcss/defaultTheme");
 
-const { colors, fontSize } = require("./src/designTokens/index");
+const { colors, fontSize, borderRadius } = require("./src/designTokens/index");
 
 module.exports = {
   content: [
@@ -19,9 +19,7 @@ module.exports = {
       spacing: {
         30: "7.5rem",
       },
-      borderRadius: {
-        "4xl": "3.5rem",
-      },
+      borderRadius,
       fontFamily: {
         body: ["Urbanist", ...defaultTheme.fontFamily.sans],
       },
