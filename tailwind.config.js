@@ -16,6 +16,9 @@ module.exports = {
     colors,
     fontSize,
     extend: {
+      borderRadius: {
+        "4xl": "3.5rem",
+      },
       fontFamily: {
         body: ["Urbanist", ...defaultTheme.fontFamily.sans],
       },
