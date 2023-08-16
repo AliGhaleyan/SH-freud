@@ -13,7 +13,7 @@ const Hero = () => {
           "bg-[url('/hero/background-3d-mobile.png')] bg-contain bg-bottom"
         )}
       >
-        <div className="container mx-auto grid gap-x-16 xl:grid-cols-2">
+        <div className="container grid gap-x-16 xl:grid-cols-2">
           <Heading />
           <IPhoneSpaceBlack />
         </div>
