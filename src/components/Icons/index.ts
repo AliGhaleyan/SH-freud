@@ -1,4 +1,5 @@
 export { default as ArrowRightIcon } from "./ArrowRightIcon";
+export { default as CheckRoundIcon } from "./CheckRoundIcon";
 export { default as EmailIcon } from "./EmailIcon";
 export { default as FacebookIcon } from "./FacebookIcon";
 export { default as InstagramIcon } from "./InstagramIcon";
