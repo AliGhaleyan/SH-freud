@@ -3,6 +3,7 @@ import { Hero } from "./components/Hero";
 import { CompanySlider } from "./components/CompanySlider";
 import { Statistics } from "./components/Statistics";
 import { Feature } from "./components/Feature";
+import { Benefits } from "./components/Benefits";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <CompanySlider />
       <Statistics />
       <Feature />
+      <Benefits />
     </BasePageLayout>
   );
 };
