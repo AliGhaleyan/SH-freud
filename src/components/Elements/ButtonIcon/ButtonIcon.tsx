@@ -8,7 +8,7 @@ const ButtonIcon = (props: ButtonIconProps) => {
   return (
     <div
       className={classNames(
-        "btn-icon flex items-center justify-center rounded-full bg-white",
+        "btn-icon flex cursor-pointer items-center justify-center rounded-full bg-white",
         BUTTON_ICON_SIZE_CLASS[size],
         props.className
       )}
