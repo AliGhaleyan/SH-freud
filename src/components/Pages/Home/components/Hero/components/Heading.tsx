@@ -4,7 +4,7 @@ import { ArrowRightIcon } from "@/components/Icons";
 
 const Heading = () => {
   return (
-    <div className="z-[60] md:pb-20 xl:pb-0">
+    <div className="z-[60] px-4 md:pb-20 lg:px-0 xl:pb-0">
       <div className="grid gap-y-12">
         <div className="flex justify-center lg:justify-start">
           <Label className="bg-mindful-gray-20 text-mindful-gray-60">
@@ -16,7 +16,7 @@ const Heading = () => {
         <div className="grid gap-y-6 text-center lg:text-left">
           <h2 className="text-heading-lg font-bold leading-[160%] tracking-[-0.2px] lg:text-[3.75rem] xl:text-[4.5rem]">
             Empathetic Mental Health
-            <div className="relative mx-auto w-fit justify-center text-empathy-orange-40 md:mx-0 lg:justify-start">
+            <div className="relative mx-auto w-fit justify-center text-empathy-orange-40 lg:mx-0 lg:justify-start">
               {" "}
               AI Chatbot
               <AIChatbotMarker />

@@ -1,27 +1,35 @@
 import Image from "next/image";
 import { Tag } from "@/components/Elements";
 import { LocationIcon, TelephoneIcon } from "@/components/Icons";
+import classNames from "classnames";
 
 const IPhoneSpaceBlack = () => {
   return (
-    <div className="relative flex h-[32rem] items-center justify-center overflow-hidden md:hidden lg:h-[42rem] xl:flex">
-      {/*-translate-x-16 md:translate-x-0*/}
-      <div className="absolute left-1/2 top-[65%] m-auto h-[40rem] w-[40rem] -translate-x-1/2 -translate-y-1/2 md:top-1/2 md:h-[60rem] md:w-[60rem] md:pt-32">
-        {/*h-[32rem] w-[31rem] lg:h-[42rem] lg:w-[46rem]*/}
-        <div className="relative m-auto h-full w-full">
-          <Image src="/hero/mobile-body-02.png" layout="fill" />
-        </div>
-      </div>
-      <div className="absolute top-[3.25rem] md:top-10">
-        <div className="relative mx-auto h-[34.5rem] w-[16.5rem] md:h-[56.5rem] md:w-[24.5rem]">
+    <div className="relative h-[27.5rem] overflow-hidden md:hidden xl:block xl:h-[50rem]">
+      <div className="absolute left-0 right-0 top-0 mx-auto flex h-full w-full justify-center">
+        <div
+          className={classNames(
+            "relative flex items-center justify-center overflow-hidden md:hidden xl:flex",
+            "h-[38.25rem] w-[19rem] xl:h-[64.25rem] xl:w-[32rem]"
+          )}
+        >
           <Image
-            src="/hero/mobile-screen-02.png"
+            src="/hero/iphone-14-pro-max-frame.png"
             layout="fill"
-            className="rounded-[2rem] md:rounded-[3rem]"
+            className="z-10"
           />
+          <div className="absolute z-0">
+            <div className="relative h-[36.5rem] w-[17rem] xl:h-[61.5rem] xl:w-[28.5rem]">
+              <Image
+                src="/hero/chat-screen-03.png"
+                layout="fill"
+                className="rounded-5xl"
+              />
+            </div>
+          </div>
         </div>
       </div>
-      <div className="absolute top-[18rem] z-50 flex gap-2 whitespace-nowrap pl-24 text-mindful-gray-80 md:top-[27rem] md:pl-40">
+      <div className="absolute top-[16.875rem] z-[1050] flex gap-2 whitespace-nowrap pl-28 text-mindful-gray-80 md:top-[28rem] md:pl-40">
         <Tag className="my-auto bg-white" icon={<TelephoneIcon />}>
           Doctor Khan Phone
         </Tag>

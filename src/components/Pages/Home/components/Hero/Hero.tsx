@@ -7,13 +7,13 @@ const Hero = () => {
     <div className="relative">
       <div
         className={classNames(
-          "bg-no-repeat px-4 pt-32 lg:px-20 lg:pt-40 xl:px-4",
+          "bg-no-repeat pt-32 lg:px-20 lg:pt-40 xl:px-4",
           "xl:bg-[url('/hero/background-3d.png')] xl:bg-right-top",
           "md:bg-none",
           "bg-[url('/hero/background-3d-mobile.png')] bg-contain bg-bottom"
         )}
       >
-        <div className="container grid gap-x-16 xl:grid-cols-2">
+        <div className="container grid gap-x-16 gap-y-14 xl:grid-cols-2">
           <Heading />
           <IPhoneSpaceBlack />
         </div>
