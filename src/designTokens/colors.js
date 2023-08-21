@@ -1,5 +1,6 @@
 module.exports = {
   "empathy-orange": {
+    10: "#FFF0EB",
     20: "#FFD2C2",
     40: "#FE814B",
     80: "#702901",

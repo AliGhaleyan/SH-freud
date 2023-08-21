@@ -5,6 +5,7 @@ import { Statistics } from "./components/Statistics";
 import { Feature } from "./components/Feature";
 import { Benefits } from "./components/Benefits";
 import { CTA } from "./components/CTA";
+import { LatestNews } from "./components/LatestNews";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Feature />
       <Benefits />
       <CTA />
+      <LatestNews />
     </BasePageLayout>
   );
 };
