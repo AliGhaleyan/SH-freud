@@ -1,11 +1,14 @@
+import { ReactNode } from "react";
+
 export type ButtonType = "fill" | "outline";
 
-export type ButtonColor = "orange" | "green" | "gray";
+export type ButtonColor = "orange" | "green" | "gray" | "white";
 
 export type ButtonProps = React.PropsWithChildren<
   Omit<React.ButtonHTMLAttributes<HTMLButtonElement>, "type"> & {
     type: ButtonType;
     color: ButtonColor;
-    icon?: React.ReactNode;
+    icon?: ReactNode;
+    buttonIconClassName?: string;
   }
 >;

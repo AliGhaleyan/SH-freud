@@ -4,6 +4,7 @@ import { CompanySlider } from "./components/CompanySlider";
 import { Statistics } from "./components/Statistics";
 import { Feature } from "./components/Feature";
 import { Benefits } from "./components/Benefits";
+import { CTA } from "./components/CTA";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Statistics />
       <Feature />
       <Benefits />
+      <CTA />
     </BasePageLayout>
   );
 };

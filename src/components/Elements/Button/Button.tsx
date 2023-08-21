@@ -2,7 +2,13 @@ import { ButtonProps } from "./types";
 import classNames from "classnames";
 import { ButtonIcon } from "@/components/Elements";
 
-const Button = ({ className, children, icon, ...props }: ButtonProps) => {
+const Button = ({
+  className,
+  children,
+  icon,
+  buttonIconClassName,
+  ...props
+}: ButtonProps) => {
   return (
     <button
       className={classNames(
@@ -18,7 +24,11 @@ const Button = ({ className, children, icon, ...props }: ButtonProps) => {
         <div className="flex w-full items-center">
           {children}
           <div className="ml-auto">
-            <ButtonIcon size="sm" icon={icon} className="ml-10" />
+            <ButtonIcon
+              size="sm"
+              icon={icon}
+              className={classNames("ml-10", buttonIconClassName)}
+            />
           </div>
         </div>
       ) : (

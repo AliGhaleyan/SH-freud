@@ -1,12 +1,19 @@
 import classNames from "classnames";
 
+type Props = React.PropsWithChildren<
+  React.HTMLAttributes<HTMLDivElement> & {
+    parentClassName?: string;
+  }
+>;
+
 const Container = ({
   children,
   className,
+  parentClassName,
   ...props
-}: React.PropsWithChildren<React.HTMLAttributes<HTMLDivElement>>) => {
+}: Props) => {
   return (
-    <div className="px-4 py-2">
+    <div className={classNames("px-4 py-2", parentClassName)}>
       <div
         className={classNames("container", className)}
         {...(props as object)}
