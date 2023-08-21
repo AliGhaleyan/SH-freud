@@ -9,6 +9,11 @@
     @apply text-white;
   }
 
+  .btn-fill.btn-white {
+    @apply bg-white !important;
+    @apply text-mindful-gray-80;
+  }
+
   .btn-fill.btn-gray {
     @apply bg-mindful-gray-80;
   }
