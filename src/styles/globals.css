@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url("./buttons.css");
+@import url("./chat.css");
 @import url("./font-face.css");
 @import url("./swiper.css");
 

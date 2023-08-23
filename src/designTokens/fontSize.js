@@ -1,4 +1,5 @@
 module.exports = {
+  sm: ["14px", { lineHeight: "normal" }],
   lg: ["18px", { lineHeight: "21.6px" }],
   xl: ["20px", { lineHeight: "normal" }],
   "2xl": ["24px", { lineHeight: "normal" }],

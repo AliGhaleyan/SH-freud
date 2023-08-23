@@ -1,0 +1,89 @@
+@tailwind components;
+
+@layer components {
+  .chat-item-container {
+    @apply flex;
+  }
+
+  .chat-item {
+    @apply relative mb-4 flex gap-x-3 rounded-t-3xl p-3 text-xl font-semibold;
+  }
+
+  .chat-item > .bottom-icon {
+    @apply absolute -bottom-4 h-4 w-4;
+  }
+
+  .chat-item-container.chat-item-container-send .bottom-icon {
+    @apply right-0;
+  }
+
+  .chat-item-container.chat-item-container-receive .bottom-icon {
+    @apply left-0;
+  }
+
+  .chat-item-container.chat-item-container-send {
+    @apply justify-end;
+  }
+
+  .chat-item-container.chat-item-container-send > .chat-item {
+    max-width: 26rem;
+    @apply rounded-bl-3xl;
+  }
+
+  .chat-item-container.chat-item-container-receive {
+    @apply justify-start;
+  }
+
+  .chat-item-container.chat-item-container-receive > .chat-item {
+    max-width: 30rem;
+    @apply rounded-br-3xl;
+  }
+
+  .chat-item-gray {
+    @apply bg-mindful-gray-10 text-mindful-gray-100;
+  }
+
+  .chat-item-primary {
+    @apply bg-mindful-gray-80 text-mindful-gray-10;
+  }
+
+  .chat-item-white {
+    @apply bg-white text-mindful-gray-100;
+  }
+
+  .chat-item-gray > .bottom-icon {
+    @apply text-mindful-gray-10;
+  }
+
+  .chat-item-primary > .bottom-icon {
+    @apply text-mindful-gray-80;
+  }
+
+  .chat-item-white > .bottom-icon {
+    @apply text-white;
+  }
+
+  .chat-item > .logo-mark {
+    @apply flex items-center justify-center rounded-full;
+  }
+
+  .chat-item.chat-item-md > .logo-mark {
+    @apply h-16 min-w-[4rem] text-white;
+  }
+
+  .chat-item.chat-item-md > .logo-mark > svg {
+    @apply h-8 w-8;
+  }
+
+  .chat-item > .logo-mark.logo-mark-orange {
+    @apply bg-empathy-orange-40;
+  }
+
+  .chat-item > .logo-mark.logo-mark-yellow {
+    @apply bg-zen-yellow-40;
+  }
+
+  .chat-item > .logo-mark.logo-mark-green {
+    @apply bg-serenity-green-50;
+  }
+}

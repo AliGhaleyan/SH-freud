@@ -1,7 +1,8 @@
-import LogoMark from "./components/LogoMark";
 import LogoTitle from "./components/LogoTitle";
 import { LogoProps } from "./types";
 import classNames from "classnames";
+import { LOGO_MARKER_SIZE } from "./consts";
+import { LogoMark } from "@/components/Elements";
 
 const Logo = (props: LogoProps) => {
   const size = props.size || "md";
@@ -14,7 +15,10 @@ const Logo = (props: LogoProps) => {
         { "flex flex-col items-center gap-4": direction == "vertical" }
       )}
     >
-      <LogoMark size={size} />
+      <LogoMark
+        width={LOGO_MARKER_SIZE[props.size]}
+        height={LOGO_MARKER_SIZE[props.size]}
+      />
       {!props.hideTitle && <LogoTitle size={size} />}
     </div>
   );
