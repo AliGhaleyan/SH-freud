@@ -1,13 +1,15 @@
 import { PropsWithChildren } from "react";
 
-export type ChatTheme = "gray" | "primary" | "white";
+type ChatLogoTheme = "yellow" | "green" | "orange";
 
-export type ChatLogoTheme = "yellow" | "green" | "orange";
+export type ChatTheme = "gray" | "primary" | "white";
 
 export type ChatSize = "sm" | "md";
 
+export type ChatType = "send" | "receive";
+
 export type ChatProps = PropsWithChildren<{
-  type: "send" | "receive";
+  type: ChatType;
   theme: ChatTheme;
   logoTheme: ChatLogoTheme;
   size?: ChatSize;

@@ -16,8 +16,8 @@ const Logo = (props: LogoProps) => {
       )}
     >
       <LogoMark
-        width={LOGO_MARKER_SIZE[props.size]}
-        height={LOGO_MARKER_SIZE[props.size]}
+        width={LOGO_MARKER_SIZE[size]}
+        height={LOGO_MARKER_SIZE[size]}
       />
       {!props.hideTitle && <LogoTitle size={size} />}
     </div>

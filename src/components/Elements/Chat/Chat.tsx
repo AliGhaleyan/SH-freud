@@ -16,7 +16,7 @@ const Chat = (props: ChatProps) => {
       <div
         className={classNames(
           `chat-item chat-item-${size}`,
-          CHAT_SIZE_CLASS[props.size],
+          CHAT_SIZE_CLASS[size],
           CHAT_THEME_CLASS[props.theme]
         )}
       >
