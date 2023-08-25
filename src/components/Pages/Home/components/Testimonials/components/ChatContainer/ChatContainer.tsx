@@ -3,9 +3,9 @@ import { Chat } from "@/components/Elements";
 
 const ChatContainer = () => {
   return (
-    <div className="flex h-[46.25rem] w-full max-w-[34.375rem] flex-col rounded-5xl bg-white p-4">
+    <div className="xl:order-0 order-1 flex w-full flex-col rounded-4xl bg-white p-4 md:rounded-5xl xl:max-w-[34.375rem]">
       <UserInfo />
-      <div className="my-auto text-center text-sm font-semibold text-mindful-gray-100">
+      <div className="mb-4 mt-8 text-center text-sm font-semibold text-mindful-gray-100 md:my-6">
         502 Total Conversations —{" "}
         <span className="text-mindful-gray-80">See All</span>
       </div>

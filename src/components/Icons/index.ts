@@ -1,3 +1,4 @@
+export { default as ArrowLeftIcon } from "./ArrowLeftIcon";
 export { default as ArrowRightIcon } from "./ArrowRightIcon";
 export { default as CheckRoundIcon } from "./CheckRoundIcon";
 export { default as EmailIcon } from "./EmailIcon";
@@ -7,5 +8,6 @@ export { default as LinkedinIcon } from "./LinkedinIcon";
 export { default as LocationIcon } from "./LocationIcon";
 export { default as PsycheIcon } from "./PsycheIcon";
 export { default as QuestionRoundIcon } from "./QuestionRoundIcon";
+export { default as QuoteIcon } from "./QuoteIcon";
 export { default as TelephoneIcon } from "./TelephoneIcon";
 export { default as YoutubeIcon } from "./YoutubeIcon";

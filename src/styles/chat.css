@@ -6,7 +6,7 @@
   }
 
   .chat-item {
-    @apply relative mb-4 flex gap-x-3 rounded-t-3xl p-3 text-xl font-semibold;
+    @apply relative mb-4 flex gap-x-3 rounded-t-3xl p-3 text-sm font-semibold md:text-xl;
   }
 
   .chat-item > .bottom-icon {
@@ -68,11 +68,11 @@
   }
 
   .chat-item.chat-item-md > .logo-mark {
-    @apply h-16 min-w-[4rem] text-white;
+    @apply h-8 min-w-[2rem] text-white md:h-16 md:min-w-[4rem];
   }
 
   .chat-item.chat-item-md > .logo-mark > svg {
-    @apply h-8 w-8;
+    @apply h-4 w-4 md:h-8 md:w-8;
   }
 
   .chat-item > .logo-mark.logo-mark-orange {

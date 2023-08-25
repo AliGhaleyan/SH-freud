@@ -9,6 +9,7 @@ module.exports = {
     white: "#FFFFFF",
     10: "#F7F4F2",
     20: "#E8DDD9",
+    30: "#D5C2B9",
     40: "#BDA193",
     60: "#926247",
     70: "#6D4B36",

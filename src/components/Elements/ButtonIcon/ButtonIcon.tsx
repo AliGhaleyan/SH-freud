@@ -12,6 +12,7 @@ const ButtonIcon = (props: ButtonIconProps) => {
         BUTTON_ICON_SIZE_CLASS[size],
         props.className
       )}
+      onClick={props.onClick}
     >
       {props.icon}
     </div>
