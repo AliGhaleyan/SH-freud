@@ -10,7 +10,7 @@ const BenefitImageContainer = (props: BenefitImageContainerProps) => {
           src={props.image}
           alt="Benefit Image"
           layout="fill"
-          className="rounded-4xl"
+          className="rounded-[1.25rem] md:rounded-4xl"
         />
       </div>
       {props.shapes}

@@ -6,7 +6,7 @@
   }
 
   .chat-item {
-    @apply relative mb-4 flex gap-x-3 rounded-t-3xl p-3 text-sm font-semibold md:text-xl;
+    @apply relative mb-4 flex gap-x-3 font-semibold;
   }
 
   .chat-item > .bottom-icon {
@@ -25,18 +25,8 @@
     @apply justify-end;
   }
 
-  .chat-item-container.chat-item-container-send > .chat-item {
-    max-width: 26rem;
-    @apply rounded-bl-3xl;
-  }
-
   .chat-item-container.chat-item-container-receive {
     @apply justify-start;
-  }
-
-  .chat-item-container.chat-item-container-receive > .chat-item {
-    max-width: 30rem;
-    @apply rounded-br-3xl;
   }
 
   .chat-item-gray {
@@ -67,14 +57,6 @@
     @apply flex items-center justify-center rounded-full;
   }
 
-  .chat-item.chat-item-md > .logo-mark {
-    @apply h-8 min-w-[2rem] text-white md:h-16 md:min-w-[4rem];
-  }
-
-  .chat-item.chat-item-md > .logo-mark > svg {
-    @apply h-4 w-4 md:h-8 md:w-8;
-  }
-
   .chat-item > .logo-mark.logo-mark-orange {
     @apply bg-empathy-orange-40;
   }
@@ -85,5 +67,45 @@
 
   .chat-item > .logo-mark.logo-mark-green {
     @apply bg-serenity-green-50;
+  }
+
+  /* CHAT md */
+  .chat-item-md {
+    @apply rounded-t-3xl p-3 text-sm md:text-xl;
+  }
+  .chat-item-container.chat-item-container-send > .chat-item-md {
+    max-width: 26rem;
+    @apply rounded-bl-3xl;
+  }
+
+  .chat-item-container.chat-item-container-receive > .chat-item-md {
+    max-width: 30rem;
+    @apply rounded-br-3xl;
+  }
+  .chat-item.chat-item-md > .logo-mark {
+    @apply h-8 min-w-[2rem] text-white md:h-16 md:min-w-[4rem];
+  }
+
+  .chat-item.chat-item-md > .logo-mark > svg {
+    @apply h-4 w-4 md:h-8 md:w-8;
+  }
+
+  /* CHAT sm */
+  .chat-item-sm {
+    @apply max-w-[13.5rem] rounded-t-2xl p-1.5 text-[10.5px] xl:max-w-[18rem] xl:p-2 xl:text-sm;
+  }
+  .chat-item-container.chat-item-container-send > .chat-item-sm {
+    @apply rounded-bl-2xl;
+  }
+
+  .chat-item-container.chat-item-container-receive > .chat-item-sm {
+    @apply rounded-br-2xl;
+  }
+  .chat-item.chat-item-sm > .logo-mark {
+    @apply h-8 min-w-[2rem] text-white md:h-10 md:min-w-[2.5rem];
+  }
+
+  .chat-item.chat-item-sm > .logo-mark > svg {
+    @apply h-4 w-4 md:h-5 md:w-5;
   }
 }
