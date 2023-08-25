@@ -1,11 +1,11 @@
 import { ArrowLeftIcon, ArrowRightIcon, QuoteIcon } from "@/components/Icons";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+import "swiper/swiper.min.css";
 import { TEXTS } from "./consts";
 import TextSliderItem from "./components/TextSliderItem";
 import { useState } from "react";
-import { Swiper as SwiperClass } from "swiper/types";
 import { ButtonIcon } from "@/components/Elements";
+import SwiperClass from "swiper/types/swiper-class";
 
 const TextSlider = () => {
   const [swiper, setSwiper] = useState<SwiperClass>();

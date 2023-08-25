@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { COMPANY_LIST } from "@/components/Pages/Home/components/CompanySlider/consts";
-import "swiper/css";
+import "swiper/swiper.min.css";
 import { Psyche } from "@/components/Elements";
 import classNames from "classnames";
 import { Container } from "@/components/Fragments";
