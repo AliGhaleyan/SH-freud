@@ -1,24 +1,15 @@
 import classNames from "classnames";
+import { ProgressBarProps } from "./types";
+import { PROGRESS_BAR_THEME_CLASS } from "./consts";
 
-type Props = {
-  percent: number;
-  theme?: "gray" | "yellow";
-  className?: string;
-};
-
-const THEME_CLASS: Record<Props["theme"], string> = {
-  gray: "progress-bar-gray",
-  yellow: "progress-bar-yellow",
-};
-
-const ProgressBar = (props: Props) => {
+const ProgressBar = (props: ProgressBarProps) => {
   const theme = props.theme || "gray";
 
   return (
     <div
       className={classNames(
         "progress-bar",
-        THEME_CLASS[theme],
+        PROGRESS_BAR_THEME_CLASS[theme],
         props.className
       )}
     >
