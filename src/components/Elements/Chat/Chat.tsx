@@ -17,7 +17,8 @@ const Chat = (props: ChatProps) => {
         className={classNames(
           `chat-item chat-item-${size}`,
           CHAT_SIZE_CLASS[size],
-          CHAT_THEME_CLASS[props.theme]
+          CHAT_THEME_CLASS[props.theme],
+          props.className
         )}
       >
         {props.type == "send" ? bodyContent : null}

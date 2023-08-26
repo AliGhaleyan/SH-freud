@@ -42,9 +42,9 @@ const SecondBenefit = () => {
       imageShapes={
         <>
           <div className="absolute inset-0 m-auto aspect-square w-full rounded-full bg-empathy-orange-40" />
-          <div className="absolute left-16 top-0 h-16 w-16 rounded-full bg-empathy-orange-20" />
-          <div className="absolute bottom-3.5 left-20 h-8 w-8 rounded-full bg-empathy-orange-20" />
-          <div className="absolute right-1.5 top-0 h-24 w-24 rounded-full bg-empathy-orange-20" />
+          <div className="absolute -top-11 left-4 h-16 w-16 rounded-full bg-empathy-orange-20 md:left-auto md:right-1.5 md:top-0 md:h-24 md:w-24" />
+          <div className="absolute bottom-1 right-2.5 h-10 w-10 rounded-full bg-empathy-orange-20 md:bottom-auto md:left-16 md:right-auto md:top-0 md:h-16 md:w-16" />
+          <div className="absolute right-7 top-2.5 h-6 w-6 rounded-full bg-empathy-orange-20 md:bottom-3.5 md:left-20 md:right-auto md:top-auto md:h-8 md:w-8" />
           <Tags />
           <MentalHealthLevelBox />
         </>

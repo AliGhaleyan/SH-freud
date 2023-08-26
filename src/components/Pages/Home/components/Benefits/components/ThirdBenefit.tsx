@@ -30,9 +30,9 @@ const ThirdBenefit = () => {
       imageShapes={
         <>
           <div className="absolute inset-0 m-auto aspect-square w-full rounded-full bg-serenity-green-50" />
-          <div className="absolute right-6 top-7 h-16 w-16 rounded-full bg-serenity-green-20" />
-          <div className="absolute bottom-14 left-10 h-8 w-8 rounded-full bg-serenity-green-20" />
-          <div className="absolute -top-12 left-16 h-24 w-24 rounded-full bg-serenity-green-20" />
+          <div className="absolute -top-6 left-0 h-16 w-16 rounded-full bg-serenity-green-20 md:-top-12 md:left-16 md:h-24 md:w-24" />
+          <div className="absolute -bottom-6 left-7 h-10 w-10 rounded-full bg-serenity-green-20 md:bottom-auto md:left-auto md:right-6 md:top-7 md:h-16 md:w-16" />
+          <div className="absolute right-6 top-4 h-6 w-6 rounded-full bg-serenity-green-20 md:bottom-14 md:left-10 md:right-auto md:top-auto md:h-8 md:w-8" />
         </>
       }
     />

@@ -13,4 +13,5 @@ export type ChatProps = PropsWithChildren<{
   theme: ChatTheme;
   logoTheme: ChatLogoTheme;
   size?: ChatSize;
+  className?: string;
 }>;
