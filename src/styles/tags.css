@@ -1,0 +1,27 @@
+@tailwind components;
+
+@layer components {
+  .tag {
+    @apply flex items-center justify-center gap-2 rounded-lg font-extrabold uppercase md:rounded-full;
+  }
+
+  .tag-md {
+    @apply px-3 py-2 text-[8.37px] md:text-label-md;
+  }
+
+  .tag-sm {
+    @apply rounded-full py-0.5 pl-0.5 pr-2 text-[5px] lg:py-1 lg:pl-1 lg:pr-4 lg:text-label-xs;
+  }
+
+  .tag-icon {
+    @apply flex items-center justify-center md:rounded-full md:bg-mindful-gray-10;
+  }
+
+  .tag-md .tag-icon {
+    @apply h-4 w-4 md:h-8 md:w-8 md:p-2;
+  }
+
+  .tag-sm .tag-icon {
+    @apply h-3 w-3 p-0.5 lg:h-6 lg:w-6 lg:p-1;
+  }
+}

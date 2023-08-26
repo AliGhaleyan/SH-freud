@@ -1,5 +1,6 @@
 import BenefitContainer from "@/components/Pages/Home/components/Benefits/components/BenefitContainer";
 import { CheckRoundIcon } from "@/components/Icons";
+import Tags from "./components/Tags";
 
 const SecondBenefit = () => {
   return (
@@ -43,6 +44,8 @@ const SecondBenefit = () => {
           <div className="absolute left-16 top-0 h-16 w-16 rounded-full bg-empathy-orange-20" />
           <div className="absolute bottom-3.5 left-20 h-8 w-8 rounded-full bg-empathy-orange-20" />
           <div className="absolute right-1.5 top-0 h-24 w-24 rounded-full bg-empathy-orange-20" />
+          \
+          <Tags />
         </>
       }
     />

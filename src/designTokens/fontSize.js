@@ -10,6 +10,7 @@ module.exports = {
   "heading-lg": ["48px", { lineHeight: "56px" }],
   "heading-xl": ["60px", { lineHeight: "68px" }],
   "heading-2xl": ["72px", { lineHeight: "80px" }],
+  "label-xs": ["10px", { lineHeight: "normal" }],
   "label-sm": ["12px", { lineHeight: "normal" }],
   "label-md": ["14px", { lineHeight: "normal" }],
   "label-lg": ["16px", { lineHeight: "normal" }],
