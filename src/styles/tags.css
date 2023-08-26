@@ -10,7 +10,7 @@
   }
 
   .tag-sm {
-    @apply rounded-full py-0.5 pl-0.5 pr-2 text-[5px] lg:py-1 lg:pl-1 lg:pr-4 lg:text-label-xs;
+    @apply rounded-full py-0.5 pl-0.5 pr-2 text-[5px] md:py-1 md:pl-1 md:pr-4 md:text-[8px] lg:py-1 lg:pl-1 lg:pr-4 lg:text-label-xs;
   }
 
   .tag-icon {
