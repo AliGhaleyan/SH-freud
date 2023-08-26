@@ -1,0 +1,15 @@
+@tailwind components;
+
+@layer components {
+  .progress-bar {
+    @apply h-2 w-full overflow-hidden bg-mindful-gray-20;
+  }
+
+  .progress-bar-gray > div {
+    @apply bg-mindful-gray-80;
+  }
+
+  .progress-bar-yellow > div {
+    @apply bg-zen-yellow-40;
+  }
+}
