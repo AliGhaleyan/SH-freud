@@ -25,6 +25,9 @@ module.exports = {
   "zen-yellow": {
     40: "#FFCE5C",
   },
+  "gentle-violet": {
+    30: "#EC8FFF",
+  },
   white: "#FFFFFF",
   transparent: "transparent",
 };

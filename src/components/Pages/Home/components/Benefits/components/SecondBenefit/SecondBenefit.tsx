@@ -2,6 +2,7 @@ import BenefitContainer from "@/components/Pages/Home/components/Benefits/compon
 import { CheckRoundIcon } from "@/components/Icons";
 import Tags from "./components/Tags";
 import MentalHealthLevelBox from "./components/MentalHealthLevelBox";
+import CurrentMoodBox from "./components/CurrentMoodBox";
 
 const SecondBenefit = () => {
   return (
@@ -47,6 +48,7 @@ const SecondBenefit = () => {
           <div className="absolute right-7 top-2.5 h-6 w-6 rounded-full bg-empathy-orange-20 md:bottom-3.5 md:left-20 md:right-auto md:top-auto md:h-8 md:w-8" />
           <Tags />
           <MentalHealthLevelBox />
+          <CurrentMoodBox />
         </>
       }
     />
