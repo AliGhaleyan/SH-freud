@@ -1,5 +1,7 @@
 import BenefitContainer from "@/components/Pages/Home/components/Benefits/components/BenefitContainer";
 import { ProgressBar } from "@/components/Elements";
+import PeopleIconShape from "./components/PeopleIconShape";
+import BenefitChat from "./components/BenefitChat";
 
 const ThirdBenefit = () => {
   return (
@@ -33,6 +35,8 @@ const ThirdBenefit = () => {
           <div className="absolute -top-6 left-0 h-16 w-16 rounded-full bg-serenity-green-20 md:-top-12 md:left-16 md:h-24 md:w-24" />
           <div className="absolute -bottom-6 left-7 h-10 w-10 rounded-full bg-serenity-green-20 md:bottom-auto md:left-auto md:right-6 md:top-7 md:h-16 md:w-16" />
           <div className="absolute right-6 top-4 h-6 w-6 rounded-full bg-serenity-green-20 md:bottom-14 md:left-10 md:right-auto md:top-auto md:h-8 md:w-8" />
+          <PeopleIconShape />
+          <BenefitChat />
         </>
       }
     />
