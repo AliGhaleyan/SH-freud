@@ -5,7 +5,7 @@ import { MenuContext } from "./context";
 import classNames from "classnames";
 
 const Menu = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   const toggleMenu = () => setOpen((prev) => !prev);
 
