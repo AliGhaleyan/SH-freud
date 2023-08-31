@@ -12,7 +12,6 @@ const MenuContent = () => {
     <div
       className={classNames(
         "z-[1024] mt-12",
-        "transition-opacity duration-300 ease-in-out",
         open ? "opacity-100" : "opacity-0"
       )}
     >
