@@ -20,12 +20,10 @@ const Menu = () => {
   return (
     <MenuContext.Provider value={{ open, toggleMenu }}>
       <div
-        className={classNames(
-          "fixed z-[1025] min-h-screen w-full",
-          open
-            ? "max-h-full overflow-y-scroll bg-mindful-gray-80 bg-[url('/hero/menu-bg-desktop.png')] bg-cover"
-            : undefined
-        )}
+        className={classNames("fixed z-[1025] min-h-screen w-full", {
+          "max-h-full overflow-y-scroll bg-mindful-gray-80 bg-[url('/hero/menu-bg-desktop.png')] bg-cover":
+            open,
+        })}
       >
         <div className="w-full px-4 pt-4">
           <MenuHeader />
