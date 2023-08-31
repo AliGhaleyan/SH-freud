@@ -20,8 +20,8 @@ const Menu = () => {
   return (
     <MenuContext.Provider value={{ open, toggleMenu }}>
       <div
-        className={classNames("fixed z-[1025] min-h-screen w-full", {
-          "max-h-full overflow-y-scroll bg-mindful-gray-80 bg-[url('/hero/menu-bg-desktop.png')] bg-cover":
+        className={classNames("fixed z-[1025] w-full", {
+          "max-h-full min-h-screen overflow-y-scroll bg-mindful-gray-80 bg-[url('/hero/menu-bg-desktop.png')] bg-cover":
             open,
         })}
       >

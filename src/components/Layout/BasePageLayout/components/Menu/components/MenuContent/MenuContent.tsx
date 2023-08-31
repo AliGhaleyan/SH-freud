@@ -11,17 +11,16 @@ const MenuContent = () => {
   return (
     <div
       className={classNames(
-        "z-[1024] mt-12",
-        open ? "opacity-100" : "opacity-0"
+        "relative min-h-full flex-col justify-between",
+        "mt-12",
+        open ? "flex opacity-100" : "hidden opacity-0"
       )}
     >
-      <div className="relative z-[1070] flex min-h-full flex-col justify-between">
-        <Container className="my-auto flex justify-center md:justify-between">
-          <MenuLinks />
-          <MenuInformation />
-        </Container>
-        <MenuCTA />
-      </div>
+      <Container className="my-auto flex justify-center md:justify-between">
+        <MenuLinks />
+        <MenuInformation />
+      </Container>
+      <MenuCTA />
     </div>
   );
 };
