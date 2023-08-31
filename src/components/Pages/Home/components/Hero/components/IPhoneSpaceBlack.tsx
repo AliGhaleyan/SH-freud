@@ -29,7 +29,7 @@ const IPhoneSpaceBlack = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-[16.875rem] z-[1050] flex gap-2 whitespace-nowrap pl-28 text-mindful-gray-80 md:top-[28rem] md:pl-40">
+      <div className="absolute top-[16.875rem] z-[150] flex gap-2 whitespace-nowrap pl-28 text-mindful-gray-80 md:top-[28rem] md:pl-40">
         <Tag className="my-auto bg-white" icon={<TelephoneIcon />}>
           Doctor Khan Phone
         </Tag>
